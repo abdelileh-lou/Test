@@ -1,0 +1,43 @@
+-------------COMPONENTS -----------
+navbar: 
+-home(logo)
+-sell a car
+-buy a car 
+-register 
+-login 
+-about 
+
+#car box 
+-picture 
+-tswira 
+-prix 
+-kilometrage 
+-location 
+-la boite auto/manuel
+
+#footer 
+
+#testimonials box 
+-paragraphe 
+-man picture / asmou 
+
+--------------------PAGES------------------
+
+#hompage 
+-main picture 
+-hot sales (taxyat lmla7) 
+-testimonials 
+-our popular services 
+
+#buying page 
+-car picture 
+-car info 
+-payment methode 
+
+
+
+
+
+
+
+
