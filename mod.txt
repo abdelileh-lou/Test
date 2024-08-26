@@ -1,0 +1,501 @@
+     <div class="intro-text">
+        <h1>Click your next</h1>
+        <p>Quick. Easy. Simple. Sell your car today with immediate payment.</p>
+      </div>
+      <div class="btn">
+        <a id="sell" href="#"
+          ><span>SELL MY CAR</span><i class="fa fa-play spacer-ml-8"></i
+        ></a>
+        <a id="buy" href="#"
+          ><span>BUY A CAR</span><i class="fa fa-play spacer-ml-8"></i
+        ></a>
+      </div>
+///////////////////////////////////////////////////
+//////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZEXCARS</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Start Header -->
+
+    <header>
+      <div class="container">
+        <a href="#" class="logo"><img src="imgs/logo.png" alt="" /></a>
+        <ul class="main-nav">
+          <li><a href="sell.html">Sell my car</a></li>
+          <li><a href="buy.html">Buy a car</a></li>
+          <li><a href="services.html">Finance & Services</a></li>
+          <li>
+            <a href="#">Other Links</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Start Landing Section -->
+    <div class="landing">
+      <div class="slider-images">
+        <div class="img-container">
+          <img src="imgs/landing1.jpg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="imgs/landing2.jpg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="imgs/landing3.jpg" alt="" />
+        </div>
+        <div class="img-container">
+          <img src="imgs/landing4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>Click your next</h1>
+        <p>Quick. Easy. Simple. Sell your car today with immediate payment.</p>
+      </div>
+      <div class="btn">
+        <a id="sell" href="#"
+          ><span>SELL MY CAR</span><i class="fa fa-play spacer-ml-8"></i
+        ></a>
+        <a id="buy" href="#"
+          ><span>BUY A CAR</span><i class="fa fa-play spacer-ml-8"></i
+        ></a>
+      </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <div class="feat">
+          <i class="fa-solid fa-wand-magic-sparkles fa-2xl"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-thumbtack fa-2xl"></i>
+          <h3>We Will Do All The Work</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fa-solid fa-earth-europe fa-2xl"></i>
+          <h3>Your Product is Worldwide</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <h2 class="special-heading">Services</h2>
+        <p>Don't be busy, be productive</p>
+        <div class="services-content">
+          <div class="col">
+            <!-- Start Service -->
+            <div class="srv">
+              <i class="fa-solid fa-palette fa-xl"></i>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Graphic design is the process of visual communication and
+                  problem-solving using one or more of typography, photography
+                  and illustration.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fa-regular fa-gem fa-xl"></i>
+              <div class="text">
+                <h3>UI & UX</h3>
+                <p>
+                  Process of enhancing user satisfaction with a product by
+                  improving the usability, accessibility, and pleasure provided
+                  in the interaction.
+                </p>
+              </div>
+            </div>
+            <!-- End Service -->
+          </div>
+          <div class="col">
+            <!-- Start Service -->
+            <div class="srv">
+              <i class="fa-solid fa-vector-square fa-xl"></i>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Web design encompasses many different skills and disciplines
+                  in the production and maintenance of websites.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fa-solid fa-pen-ruler fa-xl"></i>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  Web development is a broad term for the work involved in
+                  developing a web site for the Internet or an intranet.
+                </p>
+              </div>
+            </div>
+            <!-- End Service -->
+          </div>
+          <div class="col">
+            <div class="image image-column">
+              <img src="imgs/services.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Footer -->
+    <footer></footer>
+    <!-- End Footer -->
+  </body>
+</html>
+///////////////////////////////////////
+//////////////////////////////////////
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #020617;
+  --main-color-alt: #1e293b;
+  --second-color: #f8fafc;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* Start Components */
+.special-heading {
+  color: #ebeced;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0;
+}
+.special-heading + p {
+  margin: -30px 0 0;
+  font-size: 20px;
+  text-align: center;
+  color: #797979;
+}
+
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+  }
+}
+/* End Components */
+/* Start Header */
+header {
+  background-color: white;
+  position: relative;
+  -webkit-box-shadow: 0 0 10px #ddd;
+  -moz-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 10px #ddd;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+header .logo {
+  color: var(--main-color);
+  font-size: 26px;
+  font-weight: bold;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .logo img {
+  width: 72px;
+}
+@media (max-width: 767px) {
+  header .logo {
+    width: 100%;
+    height: 50px;
+  }
+}
+header .main-nav {
+  display: flex;
+}
+@media (max-width: 767px) {
+  header .main-nav {
+    margin: auto;
+  }
+}
+
+header .main-nav > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  position: relative;
+  color: black;
+  padding: 0 30px;
+  overflow: hidden;
+  font-size: 18px;
+  transition: var(--main-transition);
+}
+@media (max-width: 767px) {
+  header .main-nav > li > a {
+    padding: 10px;
+    font-size: 14px;
+    height: 60px;
+  }
+}
+header .main-nav > li > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 0;
+  left: -100%;
+  transition: var(--main-transition);
+}
+header .main-nav > li > a:hover {
+  color: var(--main-color);
+  background-color: #fafafa;
+}
+header .main-nav > li > a:hover::before {
+  left: 0;
+}
+
+/* End Header */
+/* Start Landing Section */
+.landing {
+  background-image: url(../imgs/landing.jpg);
+  background-size: cover;
+  height: calc(100vh - 64px);
+  position: relative;
+}
+.landing .intro-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  width: 420px;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+  color: var(--second-color);
+}
+
+.landing .intro-text h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.landing .intro-text p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+@media (max-width: 767px) {
+  .landing .intro-text p {
+    margin: 5px 10px;
+  }
+}
+.landing .btn {
+  position: absolute;
+  bottom: 50px;
+  width: 400px;
+  left: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.landing .btn a {
+  background-color: var(--main-color);
+  color: var(--second-color);
+  width: 150px;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .landing .btn {
+    width: 100%;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.landing a i {
+  margin-left: 10px;
+}
+/* End Landing Section */
+/* Start Features */
+.features {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--section-background);
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.features .feat {
+  padding: 20px;
+  text-align: center;
+}
+.features .feat i {
+  color: var(--main-color);
+}
+.features .feat h3 {
+  font-weight: 800;
+  margin: 30px 0;
+}
+.features .feat p {
+  line-height: 1.6;
+  font-size: 17px;
+  color: #777;
+}
+/* End Features */
+/* Start Services */
+.services {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.services .services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 100px;
+}
+.services .services-content .srv {
+  display: flex;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.services .services-content .srv i {
+  color: var(--main-color);
+  flex-basis: 60px;
+}
+.services .services-content .srv .text {
+  flex: 1;
+}
+.services .services-content .srv .text h3 {
+  margin: 0 0 20px;
+}
+.services .services-content .srv .text p {
+  color: #444;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.services .services-content .image {
+  position: relative;
+  text-align: center;
+}
+.services .services-content .image::before {
+  content: "";
+  background-color: var(--secondary-color);
+  width: 100px;
+  height: calc(100% + 100px);
+  position: absolute;
+  top: -50px;
+  right: 0;
+  z-index: -1;
+}
+.services .services-content .image img {
+  width: 260px;
+}
+@media (max-width: 1199px) {
+  .image-column {
+    display: none;
+  }
+}
+
+/* End Services */
